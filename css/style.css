@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'M PLUS 1p';
+}
+body {
+	max-width: 1920px;
+	width: 100%;
+	margin: 0 auto;
+    color: #323A49;
+}
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1129px;
+    height: 106px;
+    padding: 28px 10px 29px 10px;
+}
+.header-container_name {
+    display: flex;
+}
+.header-container_name img {
+    padding-right: 15px;
+}
+.name-logo_top {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+}
+.name-logo_bottom {
+    font-weight: 900;
+    font-style: normal;
+    font-size: 23px;
+    line-height: 34px;
+    text-transform: uppercase;
+    text-align: justify
+}
+.header-container_special {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #275BA8;
+}
+.header-container_special div {
+    display: flex;
+}
+.header-container_message div {
+    display: flex;
+}
+.header-container_login div {
+    display: flex;
+}
+.envelope-box p {
+    width: 69px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+}
+.envelope-box img {
+    width: 28px;
+    height: 28px;
+    margin-right: 10px;
+}
+.navbar-container {
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1920px;
+    height: 50px;
+    background-color: #275BA8;
+}
+.navbar-container ul {
+    margin: 0 auto;
+    display: flex;
+	list-style-type: none;
+	align-items: center;
+    text-transform: uppercase;
+    color: #FFF;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+}
+.navbar-container a {
+	text-decoration: none;
+}
+.navbar-container a:visited {
+	color: #FFF;
+}
+.navbar-container li {
+    padding: 14.5px 30px;
+    border-left: 1px solid rgba(255, 255, 255, 0.05);
+}
+.swipe-container {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1920px;
+    height: 602px;
+    background-color: #F1F7FF;
+}
+.swipe-container_box {
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1129px;
+    height: 602px;
+}
+.swipe-box_tittle h1 {
+    padding-top: 90px;
+    width: 450px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 112%;
+}
+.swipe-box_tittle p {
+    width: 450px; 
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    padding-top: 30px;
+    padding-bottom: 45px;
+}
+.swipe-box_tittle a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #275BA8;
+    text-decoration: none;
+    border: 1px solid #275BA8;
+}
+.swipe-box_img {
+    width: 100%;
+    background-position: right;
+    background: linear-gradient(90deg, #F1F7FF 19.27%, rgba(241, 247, 255, 0) 100%), 
+    url(../img/electro_counter.png) no-repeat;
+}
