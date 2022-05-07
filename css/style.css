@@ -73,8 +73,6 @@ body {
 .navbar-container {
     display: flex;
     margin: 0 auto;
-    width: 100%;
-    max-width: 1920px;
     height: 50px;
     background-color: #275BA8;
 }
@@ -132,7 +130,13 @@ body {
     padding-top: 30px;
     padding-bottom: 45px;
 }
-.swipe-box_tittle a {
+.swipe-box_button {
+	display: flex;
+}
+.swipe-box_button a {
+    border-radius: 5px;
+    max-width: 250px;
+	width: 100%;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -140,10 +144,84 @@ body {
     color: #275BA8;
     text-decoration: none;
     border: 1px solid #275BA8;
+    padding: 15px 20px 15px 20px;
+    text-align: center;
+}
+.swipe-box_clicker {
+    display: flex;
+    padding-top: 60px;
+    margin: 0 auto;
+}
+.swiper-clicker {
+    width: 100%;
+    max-width: 23px;
+    height: 4px;
+    background-color: #C7D0E2;
+    margin-right: 10px;
+}
+.swiper-clicker.active {
+    background-color: #275BA8;
 }
 .swipe-box_img {
-    width: 100%;
+    position: relative;
+}
+.img-swiper {
+    display: flex;
+    position: absolute;
+    height: 602px;
+    width: 1007px;
     background-position: right;
-    background: linear-gradient(90deg, #F1F7FF 19.27%, rgba(241, 247, 255, 0) 100%), 
+    background: linear-gradient(90deg, #F1F7FF 3%, rgba(241, 247, 255, 0) 100%), 
+    linear-gradient(to left, #F1F7FF 3%, rgba(241, 247, 255, 0) 50%),
     url(../img/electro_counter.png) no-repeat;
+}
+.img-arrows {
+    display: flex;
+    flex-direction: column;
+	position: relative;
+	left: 592px;
+	top: 275px;
+    width: 36px;
+    height: 36px;
+}
+.img-arrows img {
+    width: 36px;
+    height: 36px;
+}
+.left-arrow {
+    transform: rotate(180deg);
+    filter: alpha(Opacity=50);
+    opacity: 0.5; 
+}
+.box-container_elements {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    max-width: 1129px;
+    padding: 60px 10px 29px 10px;
+    margin: 0 auto;
+}
+.elements-box {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 538px;
+    height: 140px;
+    background-color: #F4F8FD;
+    margin-bottom: 30px;
+    padding-left: 30px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 32px;
+}
+.elements-box:nth-child(odd) {
+    margin-right: 32px;
+}
+.elements-box img {
+    padding-right: 30px;
+}
+.elements-box p {
+    width: 354px;
 }
