@@ -11,6 +11,9 @@ body {
 	margin: 0 auto;
     color: #323A49;
 }
+body a{
+	text-decoration: none;
+}
 .header-container {
     display: flex;
     justify-content: space-between;
@@ -91,9 +94,6 @@ body {
 .navbar-container a {
 	text-decoration: none;
 }
-.navbar-container a:visited {
-	color: #FFF;
-}
 .navbar-container li {
     padding: 14.5px 30px;
     border-left: 1px solid rgba(255, 255, 255, 0.05);
@@ -105,6 +105,7 @@ body {
     max-width: 1920px;
     height: 602px;
     background-color: #F1F7FF;
+    background: url(../img/slide_1.png) no-repeat;
 }
 .swipe-container_box {
     display: flex;
@@ -165,22 +166,12 @@ body {
 .swipe-box_img {
     position: relative;
 }
-.img-swiper {
-    display: flex;
-    position: absolute;
-    height: 602px;
-    width: 1007px;
-    background-position: right;
-    background: linear-gradient(90deg, #F1F7FF 3%, rgba(241, 247, 255, 0) 100%), 
-    linear-gradient(to left, #F1F7FF 3%, rgba(241, 247, 255, 0) 50%),
-    url(../img/electro_counter.png) no-repeat;
-}
 .img-arrows {
     display: flex;
     flex-direction: column;
 	position: relative;
-	left: 592px;
-	top: 275px;
+	left: 470px;
+	top: 250px;
     width: 36px;
     height: 36px;
 }
@@ -296,13 +287,17 @@ body {
 }
 .info-container {
     width: 100%;
-    max-width: 1129px;
+    max-width: 1920px;
     padding: 0px 10px 30px 10px;
-    margin: 0 auto;
+    background-color: #F4F8FD;
 }
 .info-content {
     display: flex;
     justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1129px;
+    padding-top: 50px;
 }
 .info-content_box {
     display: flex;
@@ -348,4 +343,95 @@ body {
     font-size: 14px;
     line-height: 21px;
     text-transform: uppercase;
+}
+.footer-container_name {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1129px;
+    padding-top: 50px;
+}
+.footer-container_name img {
+    padding-right: 15px;
+}
+.footer-logo_top {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #858C9C;
+}
+.footer-logo_bottom {
+    font-family: 'M plus 1p ExtraBold';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: uppercase;
+    text-align: justify
+}
+.footer-politics {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-decoration-line: underline;
+}
+.footer-creator {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #858C9C;
+}
+.footer-container_name a:visited {
+    color: #858C9C;
+}
+.dropbtn {
+    border: none;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    width: 183px;
+    background-color: #275BA8;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #FFF;
+    color: black;
+    min-width: 700px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    padding: 10px 15px 30px;
+}
+.dropdown-content a {
+    color: black;
+    padding-left: 15px;
+    padding-top: 20px;
+    text-decoration: none;
+    display: block;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    width: 321px;
+    text-transform: none;
+}
+.dropdown-content a:hover {
+    background-color: #FFF;
+}
+.dropdown:hover .dropdown-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.dropdown:hover .dropbtn {
+    background-color: #386EBE;
+}
+.dropdown-content img {
+    margin-bottom: -6px;
+    margin-right: 15px;
 }
