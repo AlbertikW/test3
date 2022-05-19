@@ -3,10 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0 ">
   <title>ГУП СК Ставрополькоммунэлектро</title>
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="fonts/mplus1p.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  
 </head>
 <body>
   <header>
@@ -50,52 +52,143 @@
         <div class="dropdown">
           <li><a class="dropbtn" href="#">О предприятии</a></li>
           <div class="dropdown-content">
-            <a href="#"><img src="./img/arrow-line.png">Руководство предприятия</a>
-            <a href="#"><img src="./img/arrow-line.png">Учредительные документы</a>
-            <a href="#"><img src="./img/arrow-line.png">Структура предприятия</a>
-            <a href="#"><img src="./img/arrow-line.png">Персональные данные</a>
-            <a href="#"><img src="./img/arrow-line.png">Стандарты обслуживания</a>
+            <div>
+              <a href="#"><img src="./img/arrow-line.png">Руководство предприятия</a>
+              <a href="#"><img src="./img/arrow-line.png">Учредительные документы</a>
+              <a href="#"><img src="./img/arrow-line.png">Структура предприятия</a>
+              <a href="#"><img src="./img/arrow-line.png">Персональные данные</a>
+              <a href="#"><img src="./img/arrow-line.png">Стандарты обслуживания</a>
+            </div>
           </div>
         </div>
-        <li><a href="#">Новости</a></li>
-        <li><a href="#">Потребителям</a></li>
-        <li><a href="#">Закупки</a></li>
-        <li><a href="#">Раскрытие информации</a></li>
-        <li><a href="#">Контакты</a></li>
-        <li><a href="#"><img src="./img/search.png"></a></li>
+        <div class="dropdown">
+          <li><a href="#">Новости</a></li>
+        </div>
+        <div class="dropdown">
+          <li><a href="#">Потребителям</a></li>
+        </div>
+        <div class="dropdown">
+          <li><a href="#">Закупки</a></li>
+        </div>
+        <div class="dropdown">
+          <li><a href="#">Раскрытие информации</a></li>
+        </div>
+        <div class="dropdown">
+          <li><a href="#">Контакты</a></li>
+        </div>
+        <div class="dropdown">
+          <li><a href="#"><img src="./img/search.png"></a></li>
+        </div>
       </ul>
     </div>
   </section>
-  <div class="swipe-container">
-    <div class="swipe-container_box">
-      <div class="swipe-box_tittle">
-        <h1>Передавайте показания вовремя</h1>
-        <p>Передавайте показания и оплачивайте без комиссии и очередей!</p>
+
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div class="swiper-tittle">
+          <h1>Передавайте показания вовремя</h1>
+          <p>Передавайте показания и оплачивайте без комиссии и очередей!</p>
+          <div class="swipe-box_button">
+            <a href="#">
+              Подробнее
+              <img src="./img/about_arrow.png">
+            </a>
+          </div>
+        </div>
+        <img src="./img/slide_1.png">
+        <div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="swiper-tittle">
+          <h1>Оплачивайте онлайн</h1>
+          <p>Оплачивайте услуги онлайн круглосуточно и без комиссии!</p>
+          <div class="swipe-box_button">
+            <a href="#">
+              Подробнее
+              <img src="./img/about_arrow.png">
+            </a>
+          </div>
+        </div>
+        <img src="./img/slide_2.png">
+      </div>
+      <div class="swiper-slide">
+        <div class="swiper-tittle">
+          <h1>Интернет-приемная</h1>
+          <p>Поможем вам получить ответы на возникшие вопросы по электроснабжению.</p>
+          <div class="swipe-box_button">
+            <a href="#">
+              Подробнее
+              <img src="./img/about_arrow.png">
+            </a>
+          </div>
+        </div>
+        <img src="./img/slide_3.png">
+      </div>
+      <div class="swiper-slide">
+        <div class="swiper-tittle">
+          <h1>Живите без ограничений</h1>
+          <p>Наличие задолженности за энергоресурсы – основание для отключения</p>
+          <div class="swipe-box_button">
+            <a href="#">
+              Подробнее
+              <img src="./img/about_arrow.png">
+            </a>
+          </div>
+        </div>
+        <img src="./img/slide_4.png">
+      </div>
+      <div class="swiper-slide"><div class="swiper-tittle">
+        <h1>Договор - гарантии!</h1>
+        <p>Заключение или переоформление договора энергоснабжения</p>
         <div class="swipe-box_button">
           <a href="#">
             Подробнее
             <img src="./img/about_arrow.png">
           </a>
         </div>
-        <div class="swipe-box_clicker">
-          <span class="swiper-clicker"></span>
-          <span class="swiper-clicker active"></span>
-          <span class="swiper-clicker"></span>
-          <span class="swiper-clicker"></span>
-        </div>
       </div>
-      <div class="swipe-box_img">
-        <div class="img-arrows">
-          <div>
-            <img class="left-arrow" src="./img/arrow-line.png">
-          </div>
-          <div>
-            <img class="right-arrow" src="./img/arrow-line.png">
+      <img src="./img/slide_5.png">
+    </div>
+      <div class="swiper-slide">
+        <div class="swiper-tittle">
+          <h1>Передавайте показания вовремя</h1>
+          <p>Оплачивайте электроэнергию и передавайте показания без комиссии и очередей!</p>
+          <div class="swipe-box_button">
+            <a href="#">
+              Подробнее
+              <img src="./img/about_arrow.png">
+            </a>
           </div>
         </div>
+        <img src="./img/slide_6.png">
       </div>
     </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
   </div>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        loop: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+
+
   <div class="box-container">
     <div class="box-container_elements">
       <div class="elements-box">
